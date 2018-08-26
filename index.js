@@ -44,14 +44,5 @@ function calculatesFarePrice(beginning, destination) {
     }
 
     return results
-  // switch (feet)
-  //   case (feet < 400) :
-  //   price_per_foot = .02;
-  //   break;
-  //   case (feet < 400) :
-  //   price_per_foot = .02;
-  //   break;
-  // }
-  // return price_per_foot
 }
 calculatesFarePrice(beginning, destination)

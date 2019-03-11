@@ -1,6 +1,6 @@
 // Code your solution in this file!
 
-function distanceFromHqInBlocks (blockNumber) {
+function distanceFromHqInBlocks(blockNumber) {
   if (blockNumber > 42) {
     return blockNumber - 42;
   } else {
@@ -19,7 +19,7 @@ function distanceTravelledInFeet(starting, ending) {
     return (ending - starting) * 264; }
 }
 
-function calculatesFarePrice (starting, ending) {
+function calculatesFarePrice(starting, ending) {
   const distance = distanceTravelledInFeet(starting, ending);
   if (distance <= 400) {
     return 0; }
@@ -28,5 +28,6 @@ function calculatesFarePrice (starting, ending) {
   else if (2001 < distance < 2500) {
     return 25; }
   else {
-    return "cannot travel that far"; }
+    return "cannot travel that far"; 
+  }
 }
